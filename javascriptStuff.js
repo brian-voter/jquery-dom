@@ -10,7 +10,7 @@ $("ol").append($("<li>", {text:"This is the million dollar answer."}));
 
 $("aside").empty().append($("<p>I'm so sorry about that list.</p>"));
 
-$("input").on("change", evt => {
+$("input").on("change", () => {
   const red = $("input").eq(0).val();
   const blue = $("input").eq(1).val();
   const green = $("input").eq(2).val();
