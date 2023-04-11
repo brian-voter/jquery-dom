@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Movie App</title>
+  <link rel="stylesheet" href="movies.css">
+</head>
+
+<body>
+  <h1>Movie App</h1>
+
+  <form>
+    <input type="text" id="titleInput" placeholder="Movie Title">
+    <input type="number" id="ratingInput" name="rating" min="1" max="10" value="5">
+    <button id="addButton">Add Movie</button>
+  </form>
+
+  <div id="moviesContainer"></div>
+
+  <button id="deleteAllButton">Delete All Movies Ever</button>
+
+  <script src="https://unpkg.com/jquery"></script>
+  <script src="movies.js"></script>
+</body>
+
+</html>
